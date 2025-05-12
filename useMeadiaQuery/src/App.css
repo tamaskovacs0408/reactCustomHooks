@@ -1,0 +1,16 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+div.container {
+  display: none;
+  color: white;
+}
+
+div.container.active {
+  display: block;
+  border: 3px solid red;
+}
